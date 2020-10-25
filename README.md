@@ -10,6 +10,7 @@ Use Test Driven Development.
 Use JUnit to write unit tests while implementing a new program.
 
 2. Tasks
+
 2.1. Implementing the Modified Chess program
 We are just creating a toy chess program that lets you set up pieces on a chessboard, move them, and find possible moves for a given piece in a certain position. We are not implementing Deep Blue. Because we are simplifying so many rules, we'll call this game, Modified chESS or MESS!
 
