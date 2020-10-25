@@ -2,8 +2,11 @@
 Chess game
 
 1. Objectives
-Use Java to Develop chess toy game
+
+Use Java to Develop chess toy game.
+
 Use Test Driven Development.
+
 Use JUnit to write unit tests while implementing a new program.
 
 2. Tasks
