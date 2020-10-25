@@ -12,12 +12,16 @@ Use JUnit to write unit tests while implementing a new program.
 2. Tasks
 
 2.1. Implementing the Modified Chess program
-We are just creating a toy chess program that lets you set up pieces on a chessboard, move them, and find possible moves for a given piece in a certain position. We are not implementing Deep Blue. Because we are simplifying so many rules, we'll call this game, Modified chESS or MESS!
+
+I am just creating a toy chess program that lets you set up pieces on a chessboard, move them, and find possible moves for a given piece in a certain position. We are not implementing Deep Blue. Because we are simplifying so many rules, we'll call this game, Modified chESS or MESS!
+
 
 Chess is played on an 8 X 8 board where the initial placement of pieces is as shown in the following figure, taken from Wikipedia. Note the indexing scheme. The white king is on e1, and the black king is on e8. Familiarize yourself with the names of the pieces.
 
 Chess Board
+
 Each chess piece can move in a specific way. Details of the original rules are provided here. However, we will follow a simplified version in this assignment. Most importantly, we will ignore an important rule in chess: Moving any piece in a way that puts your own king in check is illegal. Since we don't know what check means, for us a move is legal if the piece we are moving has an empty square to move to or can capture (replace) an opponent's piece (including their king, although that's also illegal in real chess). The simplified rules are as follows:
+
 
 Assume that the queen and knight can't move.
 The king can only move one square horizontally, vertically, or diagonally. Assume that it cannot castle.
